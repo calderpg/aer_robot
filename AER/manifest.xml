@@ -1,0 +1,31 @@
+<package>
+  <description brief="AER">
+
+     AER
+
+  </description>
+  <author>Calder Phillips-Grafflin</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/AER</url>
+
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="geometry_msgs"/>
+  <depend package="sensor_msgs"/>
+
+  <rosbuild2>
+    <msgs>
+      msg/Power.msg
+      msg/Bumper.msg
+      msg/Sensor.msg
+      msg/Vector3.msg
+      msg/Motor.msg
+      msg/MotorVector.msg
+    </msgs>
+  </rosbuild2>
+
+</package>
+
+

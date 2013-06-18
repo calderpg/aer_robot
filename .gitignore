@@ -1,0 +1,7 @@
+AER/build/
+AER/bin/
+AER/msg_gen/
+AER/srv_gen/
+
+*.pyc
+*~
